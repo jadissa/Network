@@ -7,7 +7,7 @@
 -- suggest `cd /your/path/network && sudo .venvs/MyEnv/bin/python ./scripts/traffic_logger.py`
 
 ## App db wipe/install
--- `php artisan config:clear && php artisan migrate:fresh -v`
+-- `php artisan config:clear && php artisan migrate && php artisan migrate:fresh -v`
 
 ## App run
 -- `cd /your/path/Netowrk && php artisan serve`
