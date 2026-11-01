@@ -29,7 +29,7 @@
 </head>
 <body>
     <div class="container-fluid py-4">
-        <h1 class="mb-4">Inbound Network Connections</h1>
+        <p class="graffiti-text">DreamLoud</p>
 
         <div class="card mb-4">
             <div class="card-header">Display Options</div>
