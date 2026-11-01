@@ -2,6 +2,7 @@
 
 ## Database
 ./database/migrations/2025_11_13_045540_create_ip_data_table.php
+./database/migrations/2025_11_13_045540_create_display_fields_table.php
 ./config/database.php
 
 ## View
