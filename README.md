@@ -25,3 +25,10 @@
 
 ## App run
 -- `cd /your/path/Netowrk && php artisan serve`
+
+## App update
+-- `cd /your/path/Network && composer update`
+
+## TODO
+Now that I've integrated Abuse IP DB, I should see how we can use that score on the view
+-- https://docs.abuseipdb.com/#reports-endpoint
