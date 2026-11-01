@@ -1,5 +1,19 @@
 # Network
 
+## Database
+./database/migrations/2025_11_13_045540_create_ip_data_table.php
+./config/database.php
+
+## View
+./resources/views/monitor/index.blade.php
+
+## Request
+./app/Models/Request.php
+./routes/web.php
+
+## Controller
+./app/Http/Controllers/MonitorController.php
+
 ## Requires https://github.com/jadissa/os/tree/main/network
 -- only the log script
 
