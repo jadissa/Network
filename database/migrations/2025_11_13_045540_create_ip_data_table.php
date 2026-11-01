@@ -28,6 +28,10 @@ return new class extends Migration
             // The 'reviewed' integer with a default value
             $table->boolean('reviewed')->default(0); // Using boolean is idiomatic for integer flags in Laravel
 
+            // Add your two new integer columns here:
+            $table->integer('abuse_score')->default(0);
+            $table->integer('total_reports')->default(0);
+        
             // 'created_at' and 'updated_at' datetime columns
             $table->timestamps();
         });
